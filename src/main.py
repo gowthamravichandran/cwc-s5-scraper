@@ -14,7 +14,7 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    output_folder = '/app/tv/Cooku with Comali/Season 5/'
+    output_folder = 'Cooku with Comali/Season 5/'
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
     episodes = homepage_scraper.scrape_cooku_with_comali_s5()
@@ -35,4 +35,4 @@ if __name__ == '__main__':
             print(f"Skipping episode {episode_date} before Jun 15")
             continue
         output_path = output_folder + f"CookuWithComali - {episode_date}.mp4"
-        thirailinks.process_thirai_links(thirai_links, output_path)
+        # thirailinks.process_thirai_links(thirai_links, output_path)
