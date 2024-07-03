@@ -1,5 +1,7 @@
 import os
 import re
+
+import cloudscraper
 import requests
 import json
 import subprocess
@@ -58,11 +60,9 @@ def download_video(video_url, output_path):
 
 
 def extract_dailymotion_video_url(url):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.content, 'html.parser')
+    scraper = cloudscraper.create_scraper()
+    response = scraper.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
 
     iframe = soup.find('iframe', src=re.compile(r'dailymotion.com/embed'))
 
