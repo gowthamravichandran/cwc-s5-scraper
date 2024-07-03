@@ -49,7 +49,7 @@ def scrape_cooku_with_comali_s5(available_episode_dates):
     base_url = "https://www.tamildhool.net/vijay-tv/vijay-tv-show/cooku-with-comali-s5/"
     print("getting episode links")
     episodes = get_episode_links(base_url)
-
+    interested_episodes = []
     for episode in episodes:
         episode_date = episode['date']
         if episode_date < datetime.strptime('2024-06-15', '%Y-%m-%d').date() or episode_date in available_episode_dates:
@@ -57,7 +57,8 @@ def scrape_cooku_with_comali_s5(available_episode_dates):
             continue
         print(f"getting thirai link for episode {episode['title']}")
         episode['thirai_links'] = get_episode_content(episode['link'])
+        interested_episodes.append(episode)
 
-    return episodes
+    return interested_episodes
 
 

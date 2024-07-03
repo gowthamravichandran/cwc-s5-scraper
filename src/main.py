@@ -45,16 +45,12 @@ if __name__ == '__main__':
         print(f"Title: {episode['title']}")
         print(f"Date: {episode['date']}")
         print(f"Episode Link: {episode['link']}")
-        print("Thirai Links:")
-        thirai_links = []
-        for thirai in episode['thirai_links']:
-            print(f"  {thirai['name']}: {thirai['link']}")
-            thirai_links.append(thirai['link'])
-        print("---")
-        print(thirai_links)
-        episode_date = episode['date']
-        # if episode_date < datetime.strptime('2024-06-15', '%Y-%m-%d').date() or episode_date in available_episode_dates:
-        #     print(f"Skipping episode {episode_date}")
-        #     continue
-        output_path = output_folder + f"CookuWithComali - {episode_date}.mp4"
-        thirailinks.process_thirai_links(thirai_links, output_path)
+        if "thirai_links" in episode:
+            print("Thirai Links:")
+            thirai_links = []
+            for thirai in episode['thirai_links']:
+                print(f"  {thirai['name']}: {thirai['link']}")
+                thirai_links.append(thirai['link'])
+            print("---")
+            output_path = output_folder + f"CookuWithComali - {episode['date']}.mp4"
+            thirailinks.process_thirai_links(thirai_links, output_path)
