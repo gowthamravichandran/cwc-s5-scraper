@@ -35,4 +35,4 @@ if __name__ == '__main__':
             print(f"Skipping episode {episode_date} before Jun 15")
             continue
         output_path = output_folder + f"CookuWithComali - {episode_date}.mp4"
-        # thirailinks.process_thirai_links(thirai_links, output_path)
+        thirailinks.process_thirai_links(thirai_links, output_path)
