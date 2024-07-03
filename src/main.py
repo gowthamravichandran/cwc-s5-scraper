@@ -37,8 +37,9 @@ if __name__ == '__main__':
     output_folder = '/app/tv/Cooku with Comali/Season 5/'
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
-    episodes = homepage_scraper.scrape_cooku_with_comali_s5()
     available_episode_dates = get_available_episode_dates(output_folder)
+    episodes = homepage_scraper.scrape_cooku_with_comali_s5(available_episode_dates)
+
     # Print the results
     for episode in episodes:
         print(f"Title: {episode['title']}")
@@ -52,8 +53,8 @@ if __name__ == '__main__':
         print("---")
         print(thirai_links)
         episode_date = episode['date']
-        if episode_date < datetime.strptime('2024-06-15', '%Y-%m-%d').date() or episode_date in available_episode_dates:
-            print(f"Skipping episode {episode_date}")
-            continue
+        # if episode_date < datetime.strptime('2024-06-15', '%Y-%m-%d').date() or episode_date in available_episode_dates:
+        #     print(f"Skipping episode {episode_date}")
+        #     continue
         output_path = output_folder + f"CookuWithComali - {episode_date}.mp4"
         thirailinks.process_thirai_links(thirai_links, output_path)
