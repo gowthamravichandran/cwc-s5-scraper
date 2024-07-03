@@ -1,5 +1,5 @@
 # This is a sample Python script.
-from src import homepage_scraper
+import homepage_scraper
 import os
 import thirailinks
 import datetime
