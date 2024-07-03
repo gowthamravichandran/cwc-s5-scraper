@@ -1,16 +1,8 @@
-# This is a sample Python script.
 import homepage_scraper
 import os
 import thirailinks
-from datetime import datetime, date
+from datetime import datetime
 import re
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
 def get_available_episode_dates(directory):
@@ -31,9 +23,8 @@ def get_available_episode_dates(directory):
     return episode_dates
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print(f'Starting execution on: {datetime.now()}')
     output_folder = '/app/tv/Cooku with Comali/Season 5/'
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -54,3 +45,4 @@ if __name__ == '__main__':
             print("---")
             output_path = output_folder + f"CookuWithComali - {episode['date']}.mp4"
             thirailinks.process_thirai_links(thirai_links, output_path)
+    print(f'Finishing execution on: {datetime.now()}')
