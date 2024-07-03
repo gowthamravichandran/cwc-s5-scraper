@@ -37,19 +37,19 @@ def download_video(video_url, output_path):
             video_download_url = qualities[best_quality][0]['url']
             print(video_download_url)
             # Download the video using ffmpeg
-            file_name = f"{video_info.get('title', 'video')}.mp4"
-            file_path = os.path.join(output_path, file_name)
+            # file_name = f"{video_info.get('title', 'video')}.mp4"
+            # file_path = os.path.join(output_path, file_name)
             ffmpeg_command = [
                 'ffmpeg',
                 '-i', video_download_url,
                 '-c', 'copy',
                 '-bsf:a', 'aac_adtstoasc',
-                file_path
+                output_path
             ]
 
             try:
                 subprocess.run(ffmpeg_command, check=True)
-                print(f"Video downloaded successfully: {file_path}")
+                print(f"Video downloaded successfully: {output_path}")
                 return True
             except subprocess.CalledProcessError as e:
                 print(f"Failed to download video: {e}")
