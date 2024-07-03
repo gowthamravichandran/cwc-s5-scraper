@@ -14,7 +14,6 @@ def get_dailymotion_video_info(video_id):
     req = requests.Request('GET', base_url, params={'video': video_id})
     prepared_req = req.prepare()
     api_url = prepared_req.url
-
     response = requests.get(api_url)
     if response.status_code == 200:
         return response.json()

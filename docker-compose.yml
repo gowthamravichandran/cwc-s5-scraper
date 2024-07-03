@@ -1,0 +1,10 @@
+version: '3.8'
+name: 'cooku-with-comali-s5-downloader'
+
+services:
+  cooku-with-comali-s5-downloader:
+    build: .
+    volumes:
+      - /mnt/ssd/data/media/tv:/app/tv
+    environment:
+      - TZ=America/Chicago

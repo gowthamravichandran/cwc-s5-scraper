@@ -8,7 +8,6 @@ def get_episode_links(url):
     print(f"get_episode_links{url}")
     scraper = cloudscraper.create_scraper()
     response = scraper.get(url)
-    print(response.text)
     soup = BeautifulSoup(response.text, 'html.parser')
     articles = soup.find_all('article', class_='regular-post')
     print(f"found articles: {len(articles)}")
