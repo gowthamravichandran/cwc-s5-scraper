@@ -3,14 +3,14 @@ FROM python:3.9-slim
 # Install cron and ffmpeg
 RUN apt-get update && apt-get install -y cron ffmpeg
 
+# Install Python dependencies
+RUN pip install requests beautifulsoup4
+
 # Set the working directory in the container
 WORKDIR /app
 
 # Copy the Python script into the container
 COPY src/ .
-
-# Install Python dependencies
-RUN pip install requests beautifulsoup4
 
 # Create a directory for downloaded videos
 RUN mkdir /app/tv
@@ -28,4 +28,4 @@ RUN crontab /etc/cron.d/dailymotion-cron
 RUN touch /var/log/cron.log
 
 # Run the command on container startup
-CMD cron && tail -f /var/log/cron.log
+CMD python main.py && cron && tail -f /var/log/cron.log
