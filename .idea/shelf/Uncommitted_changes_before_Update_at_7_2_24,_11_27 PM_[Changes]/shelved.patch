@@ -1,0 +1,217 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"d786273c-553c-4f21-8fa8-06fd48c3a5ea\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/cwc-s5-scraper.iml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/homepage_scraper.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/main.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/requirements.txt\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/thirailinks.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 7\n}]]></component>\n  <component name=\"ProjectId\" id=\"2iZtOCQHNLxGvgvRYQ7xhLgZy8K\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Python.homepage-scraper.executor\": \"Run\",\n    \"Python.main.executor\": \"Run\",\n    \"Python.thirailinks.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"main\"\n  }\n}]]></component>\n  <component name=\"RunManager\">\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\n      <module name=\"cwc-s5-scraper\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"d786273c-553c-4f21-8fa8-06fd48c3a5ea\" name=\"Changes\" comment=\"\" />\n      <created>1719709892474</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1719709892474</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a4761b780030a4da87d158fb96aedc8ecd852f46)
++++ b/.idea/workspace.xml	(date 1719980828687)
+@@ -4,17 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="d786273c-553c-4f21-8fa8-06fd48c3a5ea" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/cwc-s5-scraper.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/homepage_scraper.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/thirailinks.py" afterDir="false" />
++    <list default="true" id="d786273c-553c-4f21-8fa8-06fd48c3a5ea" name="Changes" comment="add cloudscraper">
++      <change afterPath="$PROJECT_DIR$/src/test.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/homepage_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage_scraper.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/thirailinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirailinks.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -29,11 +24,27 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <excluded-from-favorite>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="main" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </excluded-from-favorite>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 7
+-}]]></component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.9/site-packages/yt_dlp/__init__.py" root0="SKIP_INSPECTION" />
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 7
++}</component>
+   <component name="ProjectId" id="2iZtOCQHNLxGvgvRYQ7xhLgZy8K" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+@@ -42,6 +53,7 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Docker.Dockerfile.executor": "Run",
+     "Python.homepage-scraper.executor": "Run",
+     "Python.main.executor": "Run",
+     "Python.thirailinks.executor": "Run",
+@@ -49,7 +61,12 @@
+     "git-widget-placeholder": "main"
+   }
+ }]]></component>
+-  <component name="RunManager">
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Docker.Dockerfile">
+     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+       <module name="cwc-s5-scraper" />
+       <option name="ENV_FILES" value="" />
+@@ -63,7 +80,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -72,6 +89,25 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
++    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
++      <deployment type="dockerfile">
++        <settings>
++          <option name="imageTag" value="cwc-dl" />
++          <option name="containerName" value="" />
++          <option name="sourceFilePath" value="Dockerfile" />
++        </settings>
++      </deployment>
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
++      <deployment type="dockerfile" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Docker.Dockerfile" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+@@ -89,6 +125,81 @@
+       <option name="presentableId" value="Default" />
+       <updated>1719709892474</updated>
+     </task>
++    <task id="LOCAL-00001" summary="add docker config">
++      <option name="closed" value="true" />
++      <created>1719974972642</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1719974972642</updated>
++    </task>
++    <task id="LOCAL-00002" summary="fix crontab">
++      <option name="closed" value="true" />
++      <created>1719975412344</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1719975412344</updated>
++    </task>
++    <task id="LOCAL-00003" summary="fix import">
++      <option name="closed" value="true" />
++      <created>1719975744371</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1719975744371</updated>
++    </task>
++    <task id="LOCAL-00004" summary="add debug statements">
++      <option name="closed" value="true" />
++      <created>1719976544704</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1719976544704</updated>
++    </task>
++    <task id="LOCAL-00005" summary="debug commit">
++      <option name="closed" value="true" />
++      <created>1719977496475</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1719977496475</updated>
++    </task>
++    <task id="LOCAL-00006" summary="debug commit">
++      <option name="closed" value="true" />
++      <created>1719977747264</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1719977747264</updated>
++    </task>
++    <task id="LOCAL-00007" summary="change user agent">
++      <option name="closed" value="true" />
++      <created>1719980001119</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1719980001119</updated>
++    </task>
++    <task id="LOCAL-00008" summary="add cloudscraper">
++      <option name="closed" value="true" />
++      <created>1719980542431</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1719980542431</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="add docker config" />
++    <MESSAGE value="fix crontab" />
++    <MESSAGE value="fix import" />
++    <MESSAGE value="add debug statements" />
++    <MESSAGE value="debug commit" />
++    <MESSAGE value="change user agent" />
++    <MESSAGE value="add cloudscraper" />
++    <option name="LAST_COMMIT_MESSAGE" value="add cloudscraper" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: src/test.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test.html b/src/test.html
+new file mode 100644
+--- /dev/null	(date 1719978652747)
++++ b/src/test.html	(date 1719978652747)
+@@ -0,0 +1,1 @@
++<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131}button,html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}body a{color:#fff}body a:hover{color:#ee730a;text-decoration:underline}body .lds-ring div{border-color:#999 transparent transparent}body .font-red{color:#b20f03}body .pow-button{background-color:#4693ff;color:#1d1d1d}body #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}}body{display:flex;flex-direction:column;min-height:100vh}body.no-js .loading-spinner{visibility:hidden}body.no-js .challenge-running{display:none}body.dark{background-color:#222;color:#d9d9d9}body.dark a{color:#fff}body.dark a:hover{color:#ee730a;text-decoration:underline}body.dark .lds-ring div{border-color:#999 transparent transparent}body.dark .font-red{color:#b20f03}body.dark .pow-button{background-color:#4693ff;color:#1d1d1d}body.dark #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body.dark #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}body.light{background-color:transparent;color:#313131}body.light a{color:#0051c3}body.light a:hover{color:#ee730a;text-decoration:underline}body.light .lds-ring div{border-color:#595959 transparent transparent}body.light .font-red{color:#fc574a}body.light .pow-button{background-color:#003681;border-color:#003681;color:#fff}body.light #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body.light #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZjNTc0YSIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjZmM1NzRhIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}a{background-color:transparent;color:#0051c3;text-decoration:none;transition:color .15s ease}a:hover{color:#ee730a;text-decoration:underline}.main-content{margin:8rem auto;max-width:60rem;width:100%}.heading-favicon{height:2rem;margin-right:.5rem;width:2rem}@media (width <= 720px){.main-content{margin-top:4rem}.heading-favicon{height:1.5rem;width:1.5rem}}.footer,.main-content{padding-left:1.5rem;padding-right:1.5rem}.main-wrapper{align-items:center;display:flex;flex:1;flex-direction:column}.font-red{color:#b20f03}.spacer{margin:2rem 0}.h1{font-size:2.5rem;font-weight:500;line-height:3.75rem}.h2{font-weight:500}.core-msg,.h2{font-size:1.5rem;line-height:2.25rem}.body-text,.core-msg{font-weight:400}.body-text{font-size:1rem;line-height:1.25rem}@media (width <= 720px){.h1{font-size:1.5rem;line-height:1.75rem}.h2{font-size:1.25rem}.core-msg,.h2{line-height:1.5rem}.core-msg{font-size:1rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZjNTc0YSIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjZmM1NzRhIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);padding-left:34px}#challenge-error-text,#challenge-success-text{background-repeat:no-repeat;background-size:contain}#challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=);padding-left:42px}.text-center{text-align:center}.pow-button{background-color:#0051c3;border:.063rem solid #0051c3;border-radius:.313rem;color:#fff;font-size:.875rem;line-height:1.313rem;margin:2rem 0;padding:.375rem 1rem;transition-duration:.2s;transition-property:background-color,border-color,color;transition-timing-function:ease}.pow-button:hover{background-color:#003681;border-color:#003681;color:#fff;cursor:pointer}.footer{font-size:.75rem;line-height:1.125rem;margin:0 auto;max-width:60rem;width:100%}.footer-inner{border-top:1px solid #d9d9d9;padding-bottom:1rem;padding-top:1rem}.clearfix:after{clear:both;content:"";display:table}.clearfix .column{float:left;padding-right:1.5rem;width:50%}.diagnostic-wrapper{margin-bottom:.5rem}.footer .ray-id{text-align:center}.footer .ray-id code{font-family:monaco,courier,monospace}.core-msg,.zone-name-title{overflow-wrap:break-word}@media (width <= 720px){.diagnostic-wrapper{display:flex;flex-wrap:wrap;justify-content:center}.clearfix:after{clear:none;content:none;display:initial;text-align:center}.column{padding-bottom:2rem}.clearfix .column{float:none;padding:0;width:auto;word-break:keep-all}.zone-name-title{margin-bottom:1rem}}.loading-spinner{height:76.391px}.lds-ring{display:inline-block;position:relative}.lds-ring,.lds-ring div{height:1.875rem;width:1.875rem}.lds-ring div{animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;border:.3rem solid transparent;border-radius:50%;border-top-color:#313131;box-sizing:border-box;display:block;position:absolute}.lds-ring div:first-child{animation-delay:-.45s}.lds-ring div:nth-child(2){animation-delay:-.3s}.lds-ring div:nth-child(3){animation-delay:-.15s}@keyframes lds-ring{0%{transform:rotate(0)}to{transform:rotate(1turn)}}@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none){.main-wrapper,body{display:block}}.rtl .heading-favicon{margin-left:.5rem;margin-right:0}.rtl #challenge-success-text{background-position:100%;padding-left:0;padding-right:42px}.rtl #challenge-error-text{background-position:100%;padding-left:0;padding-right:34px}</style><meta http-equiv="refresh" content="390"></head><body class="no-js"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div id="challenge-error-title"><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: \'3\',cZone: "www.tamildhool.net",cType: \'managed\',cNounce: \'98446\',cRay: \'89d3e8a03f4d2cbb\',cHash: \'f90d80b474b21d1\',cUPMDTk: "\\/vijay-tv\\/vijay-tv-show\\/cooku-with-comali-s5\\/?__cf_chl_tk=qI_bQ1Ve7d0CafxrAtUTIjbOEI6KT3Z3JhcQDj9qaBQ-1719978598-0.0.1.1-3946",cFPWv: \'g\',cTTimeMs: \'1000\',cMTimeMs: \'390000\',cTplV: 5,cTplB: \'cf\',cK: "",fa: "\\/vijay-tv\\/vijay-tv-show\\/cooku-with-comali-s5\\/?__cf_chl_f_tk=qI_bQ1Ve7d0CafxrAtUTIjbOEI6KT3Z3JhcQDj9qaBQ-1719978598-0.0.1.1-3946",md: "JuU5ilVOWmsfNf6XdhrSyNKPNxu_Aqi2OfBn18ipOmk-1719978598-1.1.1.1-pPd3cKnWTIdzEv2hcuOTFiofQL9I35NDqx5h7aXjBOTo5FU5zUj485iFf2sW_EExwN6vLlvUWdFksSJyyTwMaVxXhfjvfp7cdELxqGR00wpDRr5yZWWd7cKifx4QUQKmkZ2rzu6kEzs06Sbrn9IUo1lvFbbi1.dhGFsqc5ln6cKa.H3.3Egb14P0d4Sdz5qVIUqzA0YPOc10semi7rvm1s1WvwuBADACGn.1INX4qWd5xzYU645.jFU45C8PjvEh5KQL5HMnQBS4nskcVYv04b7RIVK2GXFyjd818c5aint_4OSi4VePgwbyWRzEBa6Y2_eJo2Cda6KH36U2cxsL9aVDA5y3WrZ17JcxMaojcGvqibNEXnQKTyHkz33SItahgghfGIo1sEoytGw3bdPu0tCbyduyWVXImmDlJ_hUNgI5p6kgOzpereSnGsPxb25oOjMK9Iac6iP7X1kr736Hm6blAHm88tfSYoJS_5SGLmuekYT8PLjAjylYpwvZbmeMGQadcFnRKnDdtdjQjJvC85OPTBScZhIokH3IuMEkUiJqJ96tr_81dJuGBnaMMV_zSZEkw4GknZupRwkMBrFYlfgsQQ.NMyE3b9bN60bdlqXjKx20IAgLaVSdH_9FTH125I9By4wM85FrNeZbrhtHfxbOmH736j0KU9vpfso1cWN7zVNZkr.Rip7ajAes66qvWLwn6LouxLl8vxTt2AlasmDfimVCSFapJ7etEuhBYwpVlZ8puZcQqd6.hxVpFlt0fLaMbU.SLxTrSobMus3YHGHydX6_13vHi5L9.w9kBgFkqUQq1_4S19EyewBzWBBt2OiM_Wb2PRiravLj7ogDOPbP3QJYt0BJhlnaSCwSmv2yUQOiK2jSBEyyhcmiokVFk6065AW_TZifYr.7iNfL0RXnZgpucmhYW8OI7dkiQPIbTTlVRO0pNRkRot9vyVbADg15LP6u7GSuIxuv3K_jFD0WEvOgVBbyfljNeUPMs6MomP5zLE0ekglOd_AkWQYY2WZDNEaWmWqZwyZOo6duMMMucwyvU6ZzjLJu1J1SWDRSNxwOHjIo8.tiCvSc49kAHgqXa1BkTBSE5YOBp3qLAqY3.ZuktZFSQKQ2N6fla00jmmiZ03yUedZ.NERyRl3XZpL9_bEOJIIQNWb7GCKWFPh88PzwuWF1ircwr9Aa0J08xNyMMSFQb58yNUUKITFPAdjSteMtwQb9wVErWxKQtDt0oMq0pv2_O1N1Q7brNdcJBklRUvuA_jV33Oyk8T4V9_xvqsNHQ_znlNFOBJtNXOLJoC.bVGOAPDK2hmF2qMq6KFCw5WzZ2IcCr34CxCrxlH8.4MO6zJbezYl8rcd0RCgG14R9M20ZJMpKHrB7wCSd7NNvZeKxQlc5Dv8EtUsPPurC_tne4odTOG7G5gLfoKUcABCVC9Z3Rkzx05qUyTWF8WyRJZ51r24FYLOSn9oeqhSTIji7MM3Eh7LRb_iIfUCVYG3KPUc7_1X4tth1nfSsouYGqef9j7djgKecyySZ.Ng7eCOCkajnLmymsrWdJg",mdrd: "AeHIi8LvAgeJR9OruikXf_UOBFOSgMlGHRsdQVgVBF4-1719978598-1.1.1.1-8uuIEA2dIG8aOvDWhwieZ29V7OWg8WCcZCgRty2_e7PKZ_lyaNj7JKW7mOgiKFuxhBSTW5HW_zKo_OWruM8TkOsWSrBEgVrZdhnzv1Gwj0ttAjFtqFQ4xtUODx0Loacq2UYdxcDnQxtoRYhAf6yPd6SBf7cKbkHQcfRU8u.d7crYTsDaGkT8n3JvJDZnnXUduHZdvtX7A46MrL_CGPvar3B_7wmg9Qu9x0E2DrpqwHk.I2vBpnUr9YNeqJn8eH4_p3zJZ1wnYEVxbwvHG94juI5HJAAcwfV_MFPhM0JdvqBa87IR5TK7r54dUc7BI6nXyNGrpZIe7gnWMV_1k8T3ln205gqDZiLGRYZIi.iL31px6OQ.XfM7mh4Bhd75F_xFDarrBuH6pd6x5.oIyLTOHXrdO3ZAkubLWP7ZdEnYheTkpnfmPUpSxGuorJpaJ47CQsdUo_FFrx1u2eStiYGHtVmJ7qrC9QT7K3eCiVqKC2Tnwa_Er3sg7RmT9GaIaE1jPplwa6m1AkIaDa8QycQa6nqliQg6traykUo_BVK.uEOnKPl5.MXIIQzZiWyiRUtqS8QZ6x2JZTwEm.owW11Tbt7WzdzmjKgsJOHeVYisOUTxERW4w0vUfx_sZlrX1upax8XqIDJZyO7LpHj6at7hHvQUiRYScLg9vpkVpmqn8gqvglKDfm2k_kFKU_BCMDCbJDXsF0HQUXj21vquKMJONwRqTtLBENC8bOYilGANSxY7XlsI2DyWJISzL27tl1GFIxLrhrp4RvFBlvNKbOY5wdzHhGWyQAlbwQyuF9eMmNz7ir.xa_YrFL.3MeLE.TyAW123_CQ0ON7Do1GrG74pAUWLqlqWYXKwAdmAQVh4dlqELj7AI15LBV3BYXjzGPXGckBj3tc30BPavgm.XODwW6Q74n.d4yWRE_DyK.9LeRUGri144IiBRUGBZiP7AAzfo1DH5rNa9d6fC9yCy157_7fgXgRjqAp8J7BLryw.1C0XdM2tNZzQtmJkcDG2MadsfFbKnS9_vgGsxnKCsWOhBH50abz70gYvOietmCCDVAUt65eCAUnReT4ywI9lDR9j5J41kEPGKRCKByHoT44MhYFyoT5v8EUGBFPVqm8bzKX9PfSHj0NT9bnqnuFwFbAfIxINZmrD5xve4TCGUqzdYQAidMrz4L4qaxT9Z1Sqn_9N.KJlgxlcAr_3SOPwc.8WZ5V4OrK2yX.VPahwHAFnNa2sDJhkLpRJ3KXJnRZDMn13Lfzl8QdgEZYWob72rVEWp5YhaxD3peNlCvcpOShdCXw59JKe2Rg0WwZ7WGVhU1ZbJFJtZS2.NRb.TBlbYfGeKrZbRmlK9kIZ5fx1BGyy91zEkMkvGi_tEd5vBMC6PSQkAb5UyGyWozivEvHgQih0L1cMsQLZd7zaO.5G91gJZDlej2AvBjTSVxscO2Dlpo3SrIkm34PXo5b8w_jxRpkFXKPk62sEm9hG7hixh_PrW95TYhv6SAqnlCbBdZ3xAJZwTiMR7a1C6cJ.R48BW5ic7L3vOOAfEz4Fk.2zjiX_fpXJV4UMDP_OMBSs7uKj_1xE8Zn5kG0S6b6eUa7DRcy1n19Gfus12l7_J26kbBECZ4QtWZJ9iy20cekvRHY3GAz2vJGTJtMawssPpQMyICm1olIUm8V1Ekf3kFoGJ6.pvV9x.0wyDNdUwM9sDomfQblufa2uM6i4dP6vH6hPwEndCYExI_rZRRmh1OqIrxta_eBmzT3YXuUk3ihl_aiz680n9BIuQQ8Uv5FR4TNFT6A9rJP_eMiYesj6EQh8omF69lwUDebEecDqwInW.W.c2.txrYiNzvCr9qtbH2MP9i1LtpaJeORu.mwDS1gxTlGcZC2a.qLAUWlcpjfOqfIqLE7R_IQIr3p3UglFO.Ry7mYy8li5g42lw.mgHzwuWvXYpbyGskAIFLUxk16KOdUKgrZ6RYPQDI4q07rDvVc0hEV8PnZ5gakg1hB3OtktjD16RIbeD8m1FvhCS4S.lJGQWnWf9uCuVIn7O1lMeMvdOSwYOWE.aqtwuuQ.AMCWBbbsX4gJEcCzErrmDeOjqsqMml0EWesDElA_hyBBcEjOXYmyQ4V6XdyNcMHhJyBe43IBfYBpmhsAXCMOZHMGztQ03S99kdc2pKnxhkWTV3T2O4P29zsEeV3PgxPWQgWCnCikUjHmtun8kvf._yOXajvLNYvtNFKR_L8BbjKrrqR4lS1cRbwG0q6L.HAanIXliJsEvA",cRq: {ru: \'aHR0cHM6Ly93d3cudGFtaWxkaG9vbC5uZXQvdmlqYXktdHYvdmlqYXktdHYtc2hvdy9jb29rdS13aXRoLWNvbWFsaS1zNS8=\',ra: \'TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzkxLjAuNDQ3Mi4xMjQgU2FmYXJpLzUzNy4zNg==\',rm: \'R0VU\',d: \'2Mwh9qrmY5I7DuaHncOkK+HlPNvKhnFOG4Oj013o30V8gMGu8wnZe3z3mptL/S8YjmsyBwBASFP3yXr2fDeCSp+Nnb4g9T2sdJ/h0ogBoohe6fjTXG8TXmRwUoFbSkZLaKOrmrF2jJk53WMqdGIi2/8FKFbLJcCCRauHvnMT2XjYpCP14Fn7e9Cp6zHhZquhNfDtdg/KIkalfIVievJ8bjkwviBX+3ILwtO1hRg5ka1G2SCqs3QLGQBVTaqSjwMQjuXfRr0uZWCfFK/BcYh0RHR3ySO/LwKoZJ82hlHkIPRT3jTfPYNfXbQ96nLR4xrKHHtmqa9hi6OA3muQdvVBngK1MCfEyc/ybQk8rG84Ffj2KLHDErBspl5Ww2z6YgvzWCLTxWUGOfeYDqDrcQJW3rteuWcMRubQgCSoJQXBx2SBo4CRr7WMX3CRHZ7snMK40q41/F02NFl0E3/zwReOmrzwZAKqsxDMgsY2t6S3QWr0zkz871+8ZOipCeXB+9uf0L62NcGjk0CojeWPQyurxA==\',t: \'MTcxOTk3ODU5OC4wMDAwMDA=\',cT: Math.floor(Date.now() / 1000),m: \'N50OTurtGTAmgM8OMNPXxJ8nrfT1l6N5freZyhO+cuE=\',i1: \'Otjndzw2p8XDsIPnCzQTUw==\',i2: \'GGgWdu9Y43X8w43CNuAeAw==\',zh: \'ilfHLuQq4THnPLNdQmLDINrSuOMJ0BkNz0K0F0mqXmA=\',uh: \'6MfvW9btGmDtSIPzr0zj9JhmieeaNz5tOYKoqhCmfqk=\',hh: \'wAuH02Lb7bzwe4c7eHKLU3cFI4lVXb24hfBQKZbDAQE=\',}};var cpo = document.createElement(\'script\');cpo.src = \'/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=89d3e8a03f4d2cbb\';window._cf_chl_opt.cOgUHash = location.hash === \'\' && location.href.indexOf(\'#\') !== -1 ? \'#\' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === \'\' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(\'?\') !== -1 ? \'?\' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\\/vijay-tv\\/vijay-tv-show\\/cooku-with-comali-s5\\/?__cf_chl_rt_tk=qI_bQ1Ve7d0CafxrAtUTIjbOEI6KT3Z3JhcQDj9qaBQ-1719978598-0.0.1.1-3946" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(\'head\')[0].appendChild(cpo);}());</script></body></html>
+\ No newline at end of file

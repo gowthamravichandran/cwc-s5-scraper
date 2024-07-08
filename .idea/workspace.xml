@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d786273c-553c-4f21-8fa8-06fd48c3a5ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cwc-s5-scraper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage_scraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirailinks.py" afterDir="false" />
+    <list default="true" id="d786273c-553c-4f21-8fa8-06fd48c3a5ea" name="Changes" comment="add dockercompose">
+      <change afterPath="$PROJECT_DIR$/src/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirailinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirailinks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,27 +24,49 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.9/site-packages/yt_dlp/__init__.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2iZtOCQHNLxGvgvRYQ7xhLgZy8K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.homepage-scraper.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.thirailinks.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homepage-scraper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thirailinks.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="cwc-s5-scraper" />
       <option name="ENV_FILES" value="" />
@@ -63,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,6 +89,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="cwc-dl" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.cooku-with-comali-s5-downloader: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="cooku-with-comali-s5-downloader" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.cooku-with-comali-s5-downloader: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -89,6 +154,169 @@
       <option name="presentableId" value="Default" />
       <updated>1719709892474</updated>
     </task>
+    <task id="LOCAL-00001" summary="add docker config">
+      <option name="closed" value="true" />
+      <created>1719974972642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719974972642</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix crontab">
+      <option name="closed" value="true" />
+      <created>1719975412344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719975412344</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix import">
+      <option name="closed" value="true" />
+      <created>1719975744371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719975744371</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add debug statements">
+      <option name="closed" value="true" />
+      <created>1719976544704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719976544704</updated>
+    </task>
+    <task id="LOCAL-00005" summary="debug commit">
+      <option name="closed" value="true" />
+      <created>1719977496475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719977496475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="debug commit">
+      <option name="closed" value="true" />
+      <created>1719977747264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719977747264</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change user agent">
+      <option name="closed" value="true" />
+      <created>1719980001119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719980001119</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add cloudscraper">
+      <option name="closed" value="true" />
+      <created>1719980542431</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719980542431</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add cloudscraper">
+      <option name="closed" value="true" />
+      <created>1719980853613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719980853613</updated>
+    </task>
+    <task id="LOCAL-00010" summary="uncomment thirailinks">
+      <option name="closed" value="true" />
+      <created>1719981036846</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719981036846</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix docker path">
+      <option name="closed" value="true" />
+      <created>1719981148020</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719981148020</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix path">
+      <option name="closed" value="true" />
+      <created>1719981355176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719981355176</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix lookup dates">
+      <option name="closed" value="true" />
+      <created>1719983438447</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719983438447</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix import">
+      <option name="closed" value="true" />
+      <created>1719983894846</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719983894846</updated>
+    </task>
+    <task id="LOCAL-00015" summary="optimise date search">
+      <option name="closed" value="true" />
+      <created>1719984226789</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719984226789</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix bug in date search">
+      <option name="closed" value="true" />
+      <created>1719984987194</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719984987194</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add print stmts">
+      <option name="closed" value="true" />
+      <created>1719985351183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719985351183</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add dockercompose">
+      <option name="closed" value="true" />
+      <created>1719985978016</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719985978016</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add docker config" />
+    <MESSAGE value="fix crontab" />
+    <MESSAGE value="add debug statements" />
+    <MESSAGE value="debug commit" />
+    <MESSAGE value="change user agent" />
+    <MESSAGE value="add cloudscraper" />
+    <MESSAGE value="uncomment thirailinks" />
+    <MESSAGE value="fix docker path" />
+    <MESSAGE value="fix path" />
+    <MESSAGE value="fix lookup dates" />
+    <MESSAGE value="fix import" />
+    <MESSAGE value="optimise date search" />
+    <MESSAGE value="fix bug in date search" />
+    <MESSAGE value="add print stmts" />
+    <MESSAGE value="add dockercompose" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dockercompose" />
   </component>
 </project>
