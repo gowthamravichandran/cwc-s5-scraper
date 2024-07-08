@@ -97,6 +97,7 @@ def process_thirai_links(links, output_path):
 
 
 def extract_video_info(url):
+    print(f"extract_video_info({url})")
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
