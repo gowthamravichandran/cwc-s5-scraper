@@ -4,7 +4,7 @@ FROM python:3.9-slim
 RUN apt-get update && apt-get install -y cron ffmpeg
 
 # Install Python dependencies
-RUN pip install requests beautifulsoup4 cloudscraper selenium
+RUN pip install requests beautifulsoup4 cloudscraper selenium webdriver-manager
 
 # Set the working directory in the container
 WORKDIR /app
